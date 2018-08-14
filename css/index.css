@@ -1,0 +1,10 @@
+body {
+    min-width: 960px;
+  }
+
+.container_12 {
+margin-left: auto;
+margin-right: auto;
+width: 960px;
+}
+
