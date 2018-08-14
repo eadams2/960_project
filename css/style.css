@@ -1,0 +1,42 @@
+.top-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #D43E97;
+
+}
+
+.top-bar li {
+    display: inline;
+    margin-right:5px;
+
+
+}
+
+.top-bar a {
+    text-decoration: none;
+}
+
+.primary-bar li {
+    display:inline;
+    margin-right:5px;
+
+    
+}
+
+.primary-bar a{
+    text-decoration: none;
+}
+
+.smart {
+    background-color: #3eccd4;
+
+}
+
+.columns a {
+    text-decoration: none;
+}
+
+.columns li {
+    list-style: none;
+}
