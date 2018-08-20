@@ -5,80 +5,111 @@ body {
 }
 
 .navlink-bar {
-    background: #121e29;
+    color: #121e29;
     background: -moz-linear-gradient(top, #121e29 0%, #121e29 100%);
     background: -webkit-linear-gradient(top, #121e29 0%,#121e29 100%);
     background: linear-gradient(to bottom, #121e29 0%,#121e29 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121e29', endColorstr='#121e29',GradientType=0 );
 }
 
-.top-bar ul {
+.navlink-bar ul {
+    text-align: right
+}
+
+.navlink-bar a:hover {
+    color: white;
+}
+
+.secondary-bar a {
+    color: #949ea8;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.secondary-bar ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    
-
 }
 
-.top-bar li {
+.secondary-bar li {
     display: inline;
     margin-right:5px;
-
-
 }
 
-.top-bar a {
-    text-decoration: none;
-}
-
-.top-bar2 li {
-    display:inline;
-    margin-right:5px;
-
-    
-}
-
-.top-bar2 a{
-    text-decoration: none;
-}
-
-.top-bar2 {
+.primary-bar {
+    color: #949ea8;
     margin-top: 50px;
 }
 
-.planning {
-    
+.primary-bar a{
+    text-decoration: none;
+    background-color: #121e29;
+    padding: 10px 15px;
+    color:white;
+    border-radius: 5px;
+}
 
+.primary-bar a:hover {
+    color: #ff8903;
+}
+
+.primary-bar ul {
+    text-align: right;
+}
+
+.primary-bar li {
+    display:inline;
+    margin-right:5px;
+}
+
+.planning {
+    margin-top:50px;
+}
+
+.planning h2 {
+    font-size: 40px;
 }
 
 .planning a {
     text-decoration: none;
-
+    background-color: #121e29;
+    padding: 10px 15px;
+    color:white;
+    border-radius: 5px;
 }
 
-.planning {
-    margin-top:50px;
-    
+.planning a:hover {
+    color: #ff8903;
 }
 
-.mainservice a {
-    text-decoration: none;
-
+.planning p {
+    color: #8e9394;
 }
 
 .mainservice {
     margin-top:50px;
+}
 
+.mainservice a {
+    color: #121e29;
+    text-decoration: none;
 }
 
 .technology {
     margin-top:50px;
+}
 
+.technology h2 {
+    color: white;
 }
 
 .technology a {
     text-decoration: none;
+}
 
+.technology p {
+    color: #8e9394;
 }
 
 .bottom-gradient {
@@ -89,8 +120,12 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#375b7d', endColorstr='#101a24',GradientType=0 );
 }
 
+.bottom-gradient a {
+    color: #f0f2f2;
+}
+
 .footer2 {
-    color:white;
+    color: #50575c;
 }
 
 .footercolor {
