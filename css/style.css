@@ -95,6 +95,16 @@ body {
     padding-bottom: 40px;
 }
 
+.columns {
+    margin-top:50px;
+}
+
+.news img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 35px;
+}
+
 .columns h2 {
     color: #fffff7;
     text-transform: uppercase;
@@ -106,9 +116,7 @@ body {
     margin-bottom: 30px;
 }
 
-.columns {
-    margin-top:50px;
-}
+
 
 .columns a {
     text-decoration: none;

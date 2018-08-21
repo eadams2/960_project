@@ -20,12 +20,6 @@ body {
     color: white;
 }
 
-.secondary-bar a {
-    color: #949ea8;
-    text-decoration: none;
-    font-size: 12px;
-}
-
 .secondary-bar ul {
     list-style: none;
     padding: 0;
@@ -37,9 +31,29 @@ body {
     margin-right:5px;
 }
 
+.secondary-bar a {
+    color: #949ea8;
+    text-decoration: none;
+    font-size: 12px;
+}
+
 .primary-bar {
     color: #949ea8;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.primary-bar ul {
+    padding: 0;
+    text-align: right;
     margin-top: 50px;
+    margin-left: -200px;
+}
+
+.primary-bar li {
+    display:inline;
+    padding-right: 10px;
+    margin-right:5px;
 }
 
 .primary-bar a{
@@ -51,20 +65,11 @@ body {
 }
 
 .primary-bar a:hover {
-    color: #ff8903;
-}
-
-.primary-bar ul {
-    text-align: right;
-}
-
-.primary-bar li {
-    display:inline;
-    margin-right:5px;
+    background-color: #ff8903;
 }
 
 .planning {
-    margin-top:50px;
+    margin-top: 10px;
 }
 
 .planning h2 {
@@ -80,7 +85,7 @@ body {
 }
 
 .planning a:hover {
-    color: #ff8903;
+    background-color: #ff8903;
 }
 
 .planning p {
@@ -91,13 +96,38 @@ body {
     margin-top:50px;
 }
 
+.mainservice img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 35px;   
+}
+
+.mainservice ul {
+    list-style: none;
+    padding: 0;
+}
+
 .mainservice a {
     color: #121e29;
     text-decoration: none;
 }
 
+.mainservice p {
+    color: #8e9599;
+}
+
+.buisiness {
+    clear: both;
+}
+
 .technology {
     margin-top:50px;
+}
+
+.technology img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 35px;
 }
 
 .technology h2 {
